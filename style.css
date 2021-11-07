@@ -1,0 +1,109 @@
+.profile-pic{
+    border: 2px solid brown;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile-border{
+    border: 4px solid brown;
+    float: left;
+    border-radius: 100%;
+    /* margin: 3px; */
+    height: 320px;
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#forecast{
+    float: right;
+   margin-right: -20px;
+    margin-top:-80px;
+    width: auto;
+    border-radius: 5px;
+    border-color: brown;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.main-tab{
+    font-family: cursive,serif;
+}
+.bio{
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.headings{
+    font-family: sans-serif,cursive;
+    font-size: 26px;
+    color:brown;
+    padding-bottom: 10px;
+}
+
+input{
+    border: none;
+    
+}
+
+.cards{
+   
+    border-radius: 5px;
+    border: 2px solid brown;
+}
+.cards:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.acadamic-head{
+    font-size: 16px;
+    font-weight: 30px;
+}
+
+.anchor{
+    color:white;
+    text-decoration: none;
+}
+.anchor:hover{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .profile-border {
+      
+    }
+    .profile-pic{
+
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .profile-border {
+        margin-left: 20px;
+        border: hidden;
+        box-shadow: none;
+    }
+    .profile-pic{
+        margin-left: 250px;
+    }
+    #forecast{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .profile-border {
+
+        margin-left: 20px;
+        border: hidden;
+        box-shadow: none;
+
+    }
+    .profile-pic{
+        margin-left: 60px;
+        
+    }
+    #forecast{
+        margin-top: 20px;
+    }
+}

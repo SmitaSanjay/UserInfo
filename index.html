@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <link rel="icon" type="image/png" href="images/profile.png">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="container-fluid" style="background-color: brown;height: 50px;">
+        <div class="row" > 
+            <div class="col-xl-1 col-lg-1 col-md-3 col-sm-3" >
+                <a href="#about"class="anchor">About</a>
+            </div>
+            <div class="col-xl-1 col-lg-1 col-md-3 col-sm-3">
+                <a href="#acadamic" class="anchor">Acadamic Info</a>
+            </div>
+            <div class="col-xl-1 col-lg-1 col-md-3 col-sm-3">
+                <a href="#professional" class="anchor">Professional Info</a>
+            </div>
+            <div class="col-xl-1 col-lg-1 col-md-3 col-sm-3">
+                <a href="#skills" class="anchor">Skills</a>
+            </div>
+        
+        </div>
+    </div>
+    <div class="container" style="padding-top: 100px;">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4">
+
+            </div>
+            <div class="col-xl-4 col-lg-4 col-sm-12 col-md-12 " >
+                <div class ="profile-border">
+                    <img src="images/prfile1.jpg" class="card-img-top profile-pic">
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-sm-12 col-md-12 " >
+              <div class="card" id="forecast">
+                  <div class="card-body">
+                      <table>
+                          <tr>
+                              <td>
+                                  Current Location:
+                              </td>
+                              <td id="location">
+                               location
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  Weather:
+                              </td>
+                              <td id="weather">
+                                  rainy
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  Time:
+                              </td>
+                              <td id="time">
+                               time
+                              </td>
+                          </tr>
+                      </table>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 ">
+
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12" style="padding-top: 15px;">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 offset-3 " style="align-items: center;"><b class="main-tab">Smita Suryavanshi</b> </div>
+                <!-- <div class="col-8"><input style="border: none;"  type="text" value="Smita Suryavanshi"></div> -->
+              </div>
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 offset-2"><b class="main-tab">Smitasanjay123@gamil.com</b></div>
+                <!-- <div class="col-8"><input style="border: none;" type="email"  readonly value=""></div> -->
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+               <span class="headings">Bio:</span> <p class="bio" >A bio is a detailed description of someone’s life, professional background, education history, achievements, and skill set. Unlike a curriculum vitae, a bio presents a person’s life by highlighting important aspects such as their unique skill set, details of their professional experience, notable projects they are involved in, and an analysis of their personality.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card cards" style="width: 100%;">
+                <div class="col" style="padding-bottom: 20px;">
+                    <h4 class="headings" id="about">About</h4>
+                </div>
+               <div class="card-body">
+                <form>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <span id="name">Smita</span>
+                          </div>
+                         
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <label for="surname">Surname:</label>
+                            <span id="surname">Suryavanshi</span>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <label for="address">Address:</label>
+                            <span id="address">sant tukaram nagar ,mk chowk,new sangavi,pune</span>
+                            <!-- <input type="text" class="form-control" id="address" value="sant tukaram nagar ,mk chowk,new sangavi,pune" readonly> -->
+                          </div>
+                         
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <label for="Country">Country:</label>
+                            <span id="Country">India</span>
+                            <!-- <input type="text" class="form-control" id="country" value="country"> -->
+                          </div>
+                          
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <label for="age">Age:</label>
+                            <span id="age">25</span>
+                            <!-- <input type="text" class="form-control" id="25" value="25"> -->
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <a class="toggle"  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            See more
+                          </a>
+                    </div>
+                    <div class="collapse" id="collapseExample">
+                        <!-- <div> -->
+                            <!-- <form> -->
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" style="margin-left: 11px;">
+                                
+                                <div class="form-group">
+                                    <label for="hobbies">hobbies:</label>
+                                    <span id="hobbies">playing guitar,volleyball,badminton</span>
+                                    <!-- <input type="text" class="form-control" id="hobbies" value="playing guitar,volleyball,badminton"> -->
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="bloodtype">Blood Type:</label>
+                                    <span id="bloodtype">B+</span>
+                                    <!-- <input type="text" class="form-control" id="bloodtype" value="B+"> -->
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="gender">Gender:</label>
+                                    <span id="gender">Female</span>
+                                    <!-- <input type="text" class="form-control" id="Female" value="Female"> -->
+                                  </div>
+
+                            </div>
+                                
+                        </div>
+                        <!-- </form> -->
+                        <!-- </div> -->
+                      </div>
+                   
+                </div>
+                    
+                    
+                </form>
+               </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="card cards" style="width: 100%;">
+                <div class="col" style="padding-bottom: 20px;">
+                    <h4 class="headings" id="acadamic">Acadamic Info</h4>
+                </div>
+               
+                <div class="card-body">
+                    <!-- <div class="col"> -->
+                    <span class="acadamic-head"><b>Highest Education</b></span>
+                    <table>
+                        <tr>
+                            <td>course:</td>
+                            <td>Bachelor of Engineeting</td>
+                        </tr>
+                        <tr>
+                            <td>Stream:</td>
+                            <td>Computer Science</td>
+                        </tr>
+                        <tr>
+                            <td>College :</td>
+                            <td>Dr M.S. Sheshgiri Collge of Engg and Tech</td>
+                        </tr>
+                        <tr>
+                            <td> University:</td>
+                            <td>VTU</td>
+                        </tr>
+                    </table>
+                    <a class="toggle" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">see more</a>
+                    <div class="collapse" id="collapseExample1">
+                        <div>
+                            <span class="acadamic-head"><b>Pre-University</b></span>
+                    <table>
+                        <tr>
+                            <td>course:</td>
+                            <td>Science</td>
+                        </tr>
+                        <tr>
+                            <td>College :</td>
+                            <td>Govindram Science Sekseria</td>
+                        </tr>
+                        <tr>
+                            <td> University:</td>
+                            <td>Karnataka Board</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <span class="acadamic-head"><b>Secondary Education</b></span>
+                    <table>
+                        <tr>
+                            <td>course:</td>
+                            <td>SSLC</td>
+                        </tr>
+                        <tr>
+                            <td>School :</td>
+                            <td>Shri Hari Vidyalaya</td>
+                        </tr>
+                        <tr>
+                            <td> University:</td>
+                            <td>Karnataka Board</td>
+                        </tr>
+                    </table>
+                        </div>
+                    </div>
+                  <!-- <form action="">
+                      <div class="form-group">
+                          <span>Highest Education</span>
+                      </div>
+                      
+                  </form> -->
+                <!-- </div> -->
+            </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="card cards" style="width: 100%;">
+                <div class="col" style="padding-bottom: 20px;">
+                    <h4 class="headings" id="professional">professional Info</h4>
+                </div>
+              
+                <div class="card-body">
+                  <table>
+                      <tr>
+                        <td class="acadamic-head"><b>08/2021 to Present</b></td>
+                        <td><b>XYZ</b>
+                        </td>
+                      </tr>
+                      <tr>
+                          <td>Responsibilties:</td>
+                          <td><p>Determining the structure and design of web pages.
+                            Ensuring user experience determines design choices.
+                            Developing features to enhance the user experience.</p></td>
+                      </tr>
+                      <tr>
+                        <td>
+                            Designation:
+                        </td>
+                        <td>
+                            Front-End Developer
+                        </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            Location:
+                          </td>
+                          <td>
+                              Pune,India
+                          </td>
+                      </tr>
+                      <tr>
+                        <td> <a class="toggle" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="#collapseExample2" role="button" >See more</a>
+                        </td>
+                        </tr>
+                       
+                  </table>
+                  <div class="collapse" id="collapseExample2">
+                      <br>
+                      <table>
+                    <tr>
+                        <td class="acadamic-head"><b>01/2021 to 08/2021 (Bootcamp)</b></td>
+                        <td><b>
+                            Master’s Certification Program in Full Stack Web Development
+(Front-End Development module completed), SKILL-LYNC
+</b>
+                        </td>
+                      </tr>
+                      <tr>
+                          <td>Projects:</td>
+                          <td><p>Complete Website (Swag of India), Skill-Lync
+                            Implementation of a complete website according to the given mock-up design
+                            which is styled using
+                            CSS 3 and structure is implemented using HTML 5 and added behaviour to it using
+                            JavaScript.
+                            The website is made responsive for at least three platforms.
+                            Link:
+                            https://drive.google.com/drive/folders/1QLSPAfyLl3tjiDtY4ufTYlWIGniVVpqL?
+                            usp=sharing.</p></td>
+                      </tr>
+                      <tr>
+                          <td>
+                            Location:
+                          </td>
+                          <td>
+                              Pune,India
+                          </td>
+                      </tr>
+                      <br>
+                      <tr>
+                        <td class="acadamic-head"><b>01/2019 to 01/2021</b></td>
+                        <td>
+                           <b> Infosys Pvt Ltd</b>
+                        </td>
+                      </tr>
+                      <tr>
+                          <td>Designation:</td>
+                          <td>System's Engineer</td>
+                      </tr>
+                      <tr>
+                          <td>Responsibilites:</td>
+                          <td><p>Testing (Validation activities, creation and reviewing of artifacts)
+                            Production support (Respond to issues assigned, do analysis, suggest/implement
+                            work around).
+                            Communicate with stake holders and close issues as per the agreed timelines in
+                            order to ensure support availability.
+                            Reviewing the test scripts, documentation to ensure quality deliverable Projects
+                            </p></td>
+                      </tr>
+                      <tr>
+                          <td>
+                            Location:
+                          </td>
+                          <td>
+                              Pune,India
+                          </td>
+                      </tr>
+
+                    </table> 
+                </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="card cards" style="width: 100%;">
+                <div class="col" style="padding-bottom: 20px;">
+                    <h4 class="headings" id="skills">Skills</h4>
+                </div>
+              
+                <div class="card-body">
+                    <DIV class="row">
+                        <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">HTML-5</div>
+                        <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">
+                            CSS-3
+                        </div>
+                    </DIV>
+                    <DIV class="row">
+                        <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">Bootstrap</div>
+                        <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">
+                            jQuery
+                        </div>
+                    </DIV>
+                    <DIV class="row">
+                        <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">Java</div>
+                        <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">
+                            Python
+                        </div>
+                    </DIV>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <p><button onclick="getLocation()">Get My Location</button></p>
+<p id="demo"></p>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyAXK9sZM_qUEYx3cnls8d1j5LyWOnz3wyA"></script>
+    <script src="jquery-1.12.4.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
